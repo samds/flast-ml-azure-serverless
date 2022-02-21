@@ -5,7 +5,6 @@ setup:
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
-	python3 -m pip install pylint
 
 test:
 	#python -m pytest -vv --cov=myrepolib tests/*.py
